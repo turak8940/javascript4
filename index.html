@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>javascript</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="even-number">
+		<input class="input-1" type="number" id="number" placeholder="Enter a number">
+	<button class="btn-custom" type="button" onclick="show()">Even or Odd number</button>
+	<h1 id="display"></h1>
+
+
+	<script>
+
+		function show(){
+
+		var a = document.getElementById('number').value;
+
+		for (i = 0; a >= i; i++) {
+
+			if (i%2==0) {
+				document.getElementById('display').innerHTML +=i +' is a even number <br>'
+			} else{
+				document.getElementById('display').innerHTML +=i +' is a odd number <br>'
+			}
+		}
+		}
+
+
+
+	</script>
+</section>
+
+
+
+<section class="sum">
+
+<input class="input-2" type="number" id="contract" placeholder="Enter a number">
+	<button class="btn-custom" type="button" onclick="shownow()">SUM</button>
+	<h1 id="displaynow"></h1>
+
+
+	<script>
+
+		function shownow(){
+
+		var a = document.getElementById('contract').value;
+		var add = null;
+
+		for (i = 0; a >= i; i++) {
+			add = add + i;
+			document.getElementById('displaynow').innerHTML = add;
+			
+		}
+		}
+
+
+
+	</script>
+	
+</section>
+
+<section class="multiplication">
+		
+		<input class="input-3" type="number" id="connection" placeholder="Enter a number">
+	<button class="btn-custom" type="button" onclick="check()">multiplication</button>
+	<h1 id="see"></h1>
+
+
+	<script>
+
+
+		var a =" " ;
+		var b = 10;
+
+		function check(){
+
+		var connection = document.getElementById('connection').value;
+
+		for (i = 1; b >= i; i++) {
+
+			a += connection +" x "+ i + " = " + connection * i +"<br>";
+
+			document.getElementById('see').innerHTML = a;
+			
+		}
+		}
+
+
+
+	</script>
+
+</section>
+
+
+
+
+	
+</body>
+</html>

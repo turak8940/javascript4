@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+body{
+	font-family: 'Maven Pro', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+.even-number{
+     padding: 70px 0;
+     margin: 30px;
+     background-color: #8e0000;
+     border-radius: 20px;
+}
+.input-1{
+    width: 450px;
+    font-size: 27px;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn-custom{
+    font-size: 28px;
+    padding: 10px 39px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btn-custom::hover{}
+h1{
+    font-size: 25px;
+    color: #fff;
+    padding: 20px;
+    margin: 30px 0;
+  	font-weight: 400;
+}
+script{}
+
+
+.sum{
+    padding: 70px 0;
+    margin: 30px;
+    background-color: #474700;
+    border-radius: 20px;
+}
+.input-2{
+    width: 647px;
+    font-size: 27px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.multiplication{
+    padding: 70px 0;
+    margin: 30px;
+    background-color: #036464;
+    border-radius: 20px;
+}
+.input-3{
+    width: 545px;
+    font-size: 27px;
+    height: 50px;
+    border-radius: 10px;
+}
